@@ -171,17 +171,27 @@ h1 {
     background-repeat: no-repeat;
     height:400px ;
     width: 570px;
+    margin-top: 30px;
 }
 .main{
     margin-top: 25px;
-}
-.text-img{
-    position: absolute;
-    top:170px;
-    color:#ffffff;
-    font-size: 25px;
-    left: 200px;
+    margin-bottom: 25px;
 }
 .left-cnt{
-    margin:0 10px;
+    margin-right: 30px;
+}
+.text-img{
+    color: #ff0000;
+    display: block;
+    vertical-align: middle;
+    font-size: 35px;
+    text-align: center;
+    margin-top:180px;
+}
+footer {
+    background-color:#ddd;
+    height: 150px;
+}
+.dmt{
+    margin-top: 50px;
 }

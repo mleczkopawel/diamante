@@ -42,13 +42,22 @@
 <div class="container main">
     <div class="row">
         <div class=" col-lg-6 home-img left-cnt">
-
+            <p class="text-img">HALO</p>
+        </div>
+        <div class=" col-lg-6 home-img">
+        </div>
+        <div class=" col-lg-6 home-img left-cnt">
             <p class="text-img">HALO</p>
         </div>
         <div class=" col-lg-6 home-img">
         </div>
     </div>
 </div>
+<footer>
+    <div class="container">
+        <p class="dmt">DIAMANTE WEAR 2016</p>
+    </div>
+</footer>
 <script>
     var searchInput = $('.js-searh').val();
     var searchButton = $('.js-search-button');
