@@ -39,7 +39,17 @@
     </div>
 
 </header>
-
+<div class="container">
+    <div class="row">
+        <div class=" col-lg-6">
+            <img class="home-img" src="image/Patch314Art_PCLauncher.jpg">
+            <p class="text"
+        </div>
+        <div class=" col-lg-6">
+            <img class="home-img" src="image/Patch314Art_PCLauncher.jpg">
+        </div>
+    </div>
+</div>
 <script>
     var searchInput = $('.js-searh').val();
     var searchButton = $('.js-search-button');
