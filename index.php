@@ -41,15 +41,15 @@
 </header>
 <div class="container main">
     <div class="row">
-        <div class=" col-lg-6 home-img left-cnt">
+        <div class="col-lg-6 home-img js-image-0">
             <p class="text-img">HALO</p>
         </div>
-        <div class=" col-lg-6 home-img">
+        <div class="col-lg-6 home-img js-image-1">
         </div>
-        <div class=" col-lg-6 home-img left-cnt">
+        <div class="col-lg-6 home-img js-image-2">
             <p class="text-img">HALO</p>
         </div>
-        <div class=" col-lg-6 home-img">
+        <div class="col-lg-6 home-img js-image-3">
         </div>
     </div>
 </div>
@@ -64,7 +64,7 @@
 
     $(document).ready(function () {
         $(searchInput).on('keypress', function (e) {
-            if ((e.which && e.which == 13) || e.keyCode && e.keyCode)) {
+            if ((e.which && e.which == 13) || (e.keyCode && e.keyCode)) {
                 $(searchButton).click();
                 return false;
             } else {
@@ -88,7 +88,11 @@
             return false;
         });
 
-
+        for (i = 0; i < 8; i++) {
+            if (i%2 == 0) {
+                $('.js-image-' + i).addClass('left-cnt');
+            }
+        }
     })
 </script>
 </body>
