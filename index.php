@@ -39,14 +39,13 @@
     </div>
 
 </header>
-<div class="container">
+<div class="container main">
     <div class="row">
-        <div class=" col-lg-6">
-            <img class="home-img" src="image/Patch314Art_PCLauncher.jpg">
-            <p class="text"
+        <div class=" col-lg-6 home-img left-cnt">
+
+            <p class="text-img">HALO</p>
         </div>
-        <div class=" col-lg-6">
-            <img class="home-img" src="image/Patch314Art_PCLauncher.jpg">
+        <div class=" col-lg-6 home-img">
         </div>
     </div>
 </div>

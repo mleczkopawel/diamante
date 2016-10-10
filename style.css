@@ -165,7 +165,23 @@ h1 {
     text-align: center;
 }
 .home-img {
+    background: url("image/Patch314Art_PCLauncher.jpg");
+    background-position: center center;
+    background-size: 580px 400px;
+    background-repeat: no-repeat;
     height:400px ;
-    width: 580px;
-    /*padding-right: 20px;*/
+    width: 570px;
+}
+.main{
+    margin-top: 25px;
+}
+.text-img{
+    position: absolute;
+    top:170px;
+    color:#ffffff;
+    font-size: 25px;
+    left: 200px;
+}
+.left-cnt{
+    margin:0 10px;
 }
